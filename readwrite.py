@@ -5,6 +5,12 @@ def read():
   c =float(split[2])
 
   line = f.readline()
+  split = line.split()
+  b = float(split[2])
+
+  line = f.readline()
+  split = line.split()
+  c = float(split[2])
 
 
 
